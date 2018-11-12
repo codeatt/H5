@@ -1,0 +1,61 @@
+header
+footer
+nav {
+    display: block;
+}
+body{
+    line-height: 1;
+    margin: 0;
+    background: azure;
+    
+}
+nav {
+    line-height: 3;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+nav ul {
+    background: #0099ff;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+ul.topnav li {
+    list-style: none;
+    float: left;
+}
+ul.topnav li a {
+    display: block;
+    text-decoration: none;
+    min-height: 16px;
+    text-transform: uppercase;
+    font-family: "Finger Paint","Poor Story","Indie Flower";
+    padding: 14px;
+    text-align: center;
+    color: white;
+}
+ul.topnav li a:hover {
+    background: blue;
+    color: white;  
+}
+.hive{
+    font-family: "Finger Paint","Poor Story","Indie Flower";
+    background: white;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    display: block;
+    align-content: center;
+    color: #0099ff;
+}
+.hive td h1 {
+    padding: 10;
+}
+h2, h4 {
+    font-family: "poor story";
+    text-align: center;
+    color: #0099ff;
+}
+
+
