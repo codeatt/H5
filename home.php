@@ -10,10 +10,21 @@ if($_POST){
   }
   $data = $_POST;
   $data['data-hora'] = date("Y-m-d H:i:s");
+  $data['ip'] = getIP();
   $content[] = $data;
   $content = json_encode($content);
   file_put_contents($fileName, $content);
+}
 
+function getIP()
+{
+    if (!empty($_SERVER['HTTP_CLIENT_IP']))  
+    { $ip=$_SERVER['HTTP_CLIENT_IP']; }
+    elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) 
+    { $ip=$_SERVER['HTTP_X_FORWARDED_FOR']; }
+    else
+    { $ip=$_SERVER['REMOTE_ADDR']; }
+    return $ip;
 }
 
 ?>
@@ -112,9 +123,12 @@ if($_POST){
         <h2>Quer ficar por dentro das melhores dicas para Seguro?</h2>
 
         <p>Deixe seu e-mail e nós enviaremos tudo que você precisa saber!</p>
-        <form class="signup-form" id="signup-form" action="">
-          <p>
-            <input type="text" name="email" id="news_signup_email" value="" placeholder="Digite seu e-mail" autofocus>
+        <form class="signup-form" id="signup-form" action="home.php" method="POST">
+        <p>
+          <input type="text" required name="name" id="news_signup_name" value="" placeholder="Digite seu Nome" autofocus>
+        </p>  
+        <p>
+            <input type="text" required name="email" id="news_signup_email" value="" placeholder="Digite seu e-mail">
           </p>
           <p class="button">
             <input type="submit" value="INSCREVER-SE">
