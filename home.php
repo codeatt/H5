@@ -24,6 +24,7 @@ if($_POST){
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <link rel="stylesheet" type="text/css" href="style.css">
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+   <link rel="stylesheet" href="./exit-intent/exit-style.css">
 <style>
 </style>
 </head>
@@ -103,6 +104,28 @@ if($_POST){
   <h2>Rodapé</h2>
 </div>
 
+
+  <div id="news-signup">
+    <div class="wrapper">
+      <div id="news-signup_close"></div>
+      <div class="newsletter-content" id="phplistsubscriberesult">
+        <h2>Quer ficar por dentro das melhores dicas para Seguro?</h2>
+
+        <p>Deixe seu e-mail e nós enviaremos tudo que você precisa saber!</p>
+        <form class="signup-form" id="signup-form" action="">
+          <p>
+            <input type="text" name="email" id="news_signup_email" value="" placeholder="Digite seu e-mail" autofocus>
+          </p>
+          <p class="button">
+            <input type="submit" value="INSCREVER-SE">
+          </p>
+        </form>
+        <p class="footnote">Nós também odiamos SPAM. Você pode escolher para de receber a qualquer momento</p>
+      </div>
+    </div>
+  </div>
+
 <script src="myscript.js"></script>
+<script src="./exit-intent/exit-script.js"></script>
 </body>
 </html>
