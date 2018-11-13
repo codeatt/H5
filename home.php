@@ -1,3 +1,22 @@
+<?php
+if($_POST){
+  $fileName = 'newsletter.json';
+  if(file_exists($fileName)){
+    $content = file_get_contents($fileName);
+    $content = json_decode($content, true);
+
+  } else {
+    $content = [];
+  }
+  $data = $_POST;
+  $data['data-hora'] = date("Y-m-d H:i:s");
+  $content[] = $data;
+  $content = json_encode($content);
+  file_put_contents($fileName, $content);
+
+}
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,9 +25,9 @@
    <link rel="stylesheet" type="text/css" href="style.css">
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 <style>
-
 </style>
 </head>
+
 <body>
 
   <div class="jumbotron text-center" style="margin-bottom:0">
@@ -21,6 +40,7 @@
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
   </button>
+
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav">
       <li class="nav-item">
@@ -34,6 +54,7 @@
       </li>
     </ul>
   </div>
+
 </nav>
 
 <div class="row">
@@ -67,12 +88,12 @@
     </div>
     <div class="card">
       <h3>Cadastre-se ! ! !<br> Siga o nosso conteúdo!</h3>
-      <form action="/action_page.php">
-        Nome: <input type="text" name="FirstName" value="Digite seu nome aqui..."><br>
+      <form action="home.php" method="post">
+        Nome: <input type="text" required name="nome" name="name" placeholder="Digite seu nome aqui..." id="nome"><br>
         <br>
-        E-mail: <input type="text" name="LastName" value="Digite seu e-mail aqui..."><br>
+        E-mail: <input type="email" required name="email" name="email" placeholder="Digite seu e-mail aqui..." id="email"><br>
         <br>
-        <input type="submit" value="Submit">
+        <button type="submit"  id="newletter">Enviar</button>
       </form>
     </div>
   </div>
@@ -81,6 +102,7 @@
 <div class="footer">
   <h2>Rodapé</h2>
 </div>
+
 <script src="myscript.js"></script>
 </body>
 </html>
