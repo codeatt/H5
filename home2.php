@@ -75,7 +75,7 @@ function getIP()
     <div class="card">
       <h2>7 fatores que podem encarecer o seguro de carro</h2>
       <h5>São Paulo, Novembro 13, 2018</h5>
-      <div class="fakeimg" style="height:200px;">Imagem</div>
+       <img src="img2.jpg" alt="x" height=100% width=100%>
       <p>A contratação de um seguro de carro é motivo de dor de cabeça para muitas pessoas.
         Afinal, trata-se de um serviço cada vez mais caro.
         Não existe uma tabela fixa de preços, mas uma série de fatores podem influenciar no valor.

@@ -89,7 +89,42 @@ carros financiados voltou a crescer no Brasil e o risco de mais pessoas se afund
    E por que isso é tão aterrorizante? Vamos usar a neurociência para explicar. É que
 nosso cérebro social reage de duas formas aos estímulos do ambiente: resposta à
 recompensa ou à ameaça, e falando de gastos inesperados, estamos falando do
-órgão mais sensível do ser humano...<br><br>
+órgão mais sensível do ser humano: o bolso! (kkk). Por isso a reação à gastos é uma
+resposta à ameaça. É o seu cérebro primitivo reagindo exatamente como nas
+cavernas (só que 300 mil anos depois!). E sabe por que isso acontece? É que a
+atividade cerebral que experimentamos na dor é 2 vezes e meia mais forte que a do
+prazer! Portanto é natural que se tenha mais gente tentando evitar erros do que
+buscando acertar!<br><br>
+
+Tá, e o que isso tem a ver comigo? Carro, gastos inesperados, meu cérebro... pah...<br><br>
+
+A boa notícia é que você pode evitar essa dor e buscar o prazer, simplesmente
+evitando gastos inesperados. Mas espere, se eles são inesperados, como vou evitá-
+los? Simples. Uma solução é não sair mais de carro (risos!). A outra é contratar um
+bom seguro de automóvel.<br><br>
+
+Uma curiosidade. Há quem diga que a compra de um seguro é algo estritamente
+racional e lógico. Mas, na verdade é só o jeito da gente justificar racionalmente nossa
+decisão emocional. Hã? Isso mesmo, você compra um seguro não porque você economiza, deixa de gastar ou evita acidentes (são recompensas!). Você compra um
+seguro, com 85% da sua decisão sendo emocional (resposta à ameaça!).<br><br>
+
+Seu cérebro primitivo, o reptiliano, decide uma compra cerca de 10 segundos antes
+de você estar consciente de sua decisão. Ele considerou basicamente fatores nada
+racionais, que são reprodução e sobrevivência. No caso da reprodução, sem o seu
+carro, suas chances de “azarar” caem drasticamente e de ter filhos e deixá-los como
+legado para o mundo se esgotam. No caso de sobrevivência, seu medo gritará mais
+alto que você, quando imaginar que pode sentir-se “excluído” da sociedade e
+experimentar uma reação cerebral idêntica à uma dor física 3 ,ou, até mesmo,
+imaginar-se mais perto da morte lhe traz a mesma sensação!<br><br>
+
+É isso que te faz comprar um seguro, seu instinto de proteção e sobrevivência, seu
+lado primitivo!<br><br>
+
+Assim, evite ficar fugindo da dor dos gastos inesperados e busque o prazer fazendo
+um seguro para seu carro hoje!<br><br>
+
+Se esse texto fez sentido para você, deixe seu melhor e-mail aqui e receba mais
+informações e dicas de como contratar um bom seguro.<br><br>
 
 Gostou do conteúdo? Cadastre-se para receber as últimas notícias!
        </p>
