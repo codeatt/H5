@@ -18,9 +18,9 @@ if($_POST){
 
 function getIP()
 {
-    if (!empty($_SERVER['HTTP_CLIENT_IP']))  
+    if (!empty($_SERVER['HTTP_CLIENT_IP']))
     { $ip=$_SERVER['HTTP_CLIENT_IP']; }
-    elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) 
+    elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR']))
     { $ip=$_SERVER['HTTP_X_FORWARDED_FOR']; }
     else
     { $ip=$_SERVER['REMOTE_ADDR']; }
@@ -35,34 +35,34 @@ function getIP()
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <link rel="stylesheet" type="text/css" href="style.css">
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-   <link rel="stylesheet" href="./exit-intent/exit-style.css">
+   <!-- <link rel="stylesheet" href="./exit-intent/exit-style.css"> -->
+   <!-- Este último link está sobrepondo o style.css, fvr ordenar corretamente a leitura de estilos -->
 <style>
 </style>
 </head>
 
 <body>
 
-  <div class="jumbotron text-center" style="margin-bottom:0">
-    <h1>FiveSeg</h1>
-    <p>...</p>
+    <div class="d-flex justify-content-center" style="margin-bottom:0">
+     <img src="logo.png" alt="x" height=150 width=200>
   </div>
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-  <a class="navbar-brand" href="#">Barra de Navegação</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+  <!-- <a class="navbar-brand" href="#">Barra de Navegação</a> -->
+  <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"> -->
+    <!-- <span class="navbar-toggler-icon"></span> -->
+  <!-- </button> -->
 
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="#">Link 1</a>
+        <a class="nav-link" href="home.php">Início</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Link 2</a>
+        <a class="nav-link" href="home1.php">Artigo 1</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Link 3</a>
+        <a class="nav-link" href="home2.php">Artigo 2</a>
       </li>
     </ul>
   </div>
@@ -71,20 +71,48 @@ function getIP()
 
 <div class="row">
   <div class="leftcolumn">
+
     <div class="card">
-      <h2>Cabeçalho</h2>
-      <h5>São Paulo, Novembro 12, 2018</h5>
+      <h2>Ao comprar um seguro, seu cérebro já decidiu 10 segundos antes de você saber disso</h2>
+      <h5>São Paulo, Novembro 13, 2018</h5>
       <div class="fakeimg" style="height:200px;">Imagem</div>
-      <p>Algum texto..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+
+      <p>Pasme! Só em 2018, +15 milhões 1 de famílias passaram a ter problemas financeiros.
+São 27 milhões de famílias ao todo enfrentando desemprego, inadimplência e
+restrições de orçamento.<br><br>
+   E, por estarem nesse “clube de (des)vantagens” essas famílias tem um inimigo mortal:
+os gastos inesperados! E estes podem surgir por problemas de saúde, juros, etc., mas
+quase sempre é por um bem que é conhecido por “gastar como uma família”: o seu
+carro. Porque eu digo isso? É que em meio à esse tsunami financeiro, a venda 2 de
+carros financiados voltou a crescer no Brasil e o risco de mais pessoas se afundarem
+é iminente.<br><br>
+   E por que isso é tão aterrorizante? Vamos usar a neurociência para explicar. É que
+nosso cérebro social reage de duas formas aos estímulos do ambiente: resposta à
+recompensa ou à ameaça, e falando de gastos inesperados, estamos falando do
+órgão mais sensível do ser humano...<br><br>
+
+Gostou do conteúdo? Para ler mais sobre clique  <a href="home1.php">aqui</a>
+       </p>
     </div>
+
     <div class="card">
-      <h2>Rubrica do Título</h2>
-      <h5>São Paulo, Novembro 12, 2018</h5>
-      <div class="fakeimg" style="height:200px;">Imagem</div>
-      <p>Algum texto..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+      <h2>7 fatores que podem encarecer o seguro de carro</h2>
+      <h5>São Paulo, Novembro 13, 2018</h5>
+      <img src="img2.jpg" alt="x" height=100% width=100%>
+      <p>A contratação de um seguro de carro é motivo de dor de cabeça para muitas pessoas.
+        Afinal, trata-se de um serviço cada vez mais caro.
+        Não existe uma tabela fixa de preços, mas uma série de fatores podem influenciar no valor.
+        Pessoas que moram em cidades mais violentas, por exemplo, podem pagar mais caro.<br><br>
+
+        Uma estudo divulgado pelo ComparaOnline, marketplace de comparação de seguros e produtos financeiros,
+        mostrou que o preço dos seguros de carro aumentaram cerca de  11%.
+        Em 2017 o valor girava em torno de R$ 1.920. Já em 2018 subiu para R$ 2.131.
+        No entanto, a média nacional se manteve estável, cerca de R$ 1.839,32.
+
+        Gostou do conteúdo? Para ler mais sobre clique  <a href="home2.php">aqui</a>
+      </p>
     </div>
+
   </div>
   <div class="rightcolumn">
     <div class="card">
@@ -112,11 +140,11 @@ function getIP()
 </div>
 
 <div class="footer">
-  <h2>Rodapé</h2>
+  <h2>Copyright</h2>
 </div>
 
 
-  <div id="news-signup">
+  <!-- <div id="news-signup">
     <div class="wrapper">
       <div id="news-signup_close"></div>
       <div class="newsletter-content" id="phplistsubscriberesult">
@@ -126,7 +154,7 @@ function getIP()
         <form class="signup-form" id="signup-form" action="home.php" method="POST">
         <p>
           <input type="text" required name="name" id="news_signup_name" value="" placeholder="Digite seu Nome" autofocus>
-        </p>  
+        </p>
         <p>
             <input type="text" required name="email" id="news_signup_email" value="" placeholder="Digite seu e-mail">
           </p>
@@ -137,9 +165,9 @@ function getIP()
         <p class="footnote">Nós também odiamos SPAM. Você pode escolher para de receber a qualquer momento</p>
       </div>
     </div>
-  </div>
+  </div> -->
 
 <script src="myscript.js"></script>
-<script src="./exit-intent/exit-script.js"></script>
+<!-- <script src="./exit-intent/exit-script.js"></script> -->
 </body>
 </html>
