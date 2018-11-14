@@ -8,7 +8,6 @@ body {
     padding: 20px;
     background: #f1f1f1;
 }
-
 /* Header/Blog Title */
 .header {
     padding: 30px;
@@ -17,6 +16,9 @@ body {
     background: white;
 }
 
+/* .bg-dark{
+  background-color: #0353d1 !important;
+} */
 /* Create two unequal columns that floats next to each other */
 /* Left column */
 .leftcolumn {

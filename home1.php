@@ -47,7 +47,7 @@ function getIP()
      <img src="logo.png" alt="x" height=150 width=200>
   </div>
 
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+<nav class="navbar navbar-expand-sm bg-color" style="background-color: #0353d1;">
   <!-- <a class="navbar-brand" href="#">Barra de Navegação</a> -->
   <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"> -->
     <!-- <span class="navbar-toggler-icon"></span> -->
@@ -56,7 +56,7 @@ function getIP()
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="home.php">Início</a>
+        <a class="nav-link" href="index.php">Início</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="home1.php">Artigo 1</a>
@@ -145,12 +145,15 @@ Gostou do conteúdo? Cadastre-se para receber as últimas notícias!
     </div>
     <div class="card">
       <h3>Cadastre-se ! ! !<br> Siga o nosso conteúdo!</h3>
-      <form action="home.php" method="post">
+      <form action="home1.php" method="post">
         Nome: <input type="text" required name="nome" name="name" placeholder="Digite seu nome aqui..." id="nome"><br>
         <br>
+        Estado: <input type="text" required name="estado" name="estado" placeholder="Digite seu estado aqui..." id="estado"><br>
+        <br>
+        <!-- Necessário atualizar para lista de estados -->
         E-mail: <input type="email" required name="email" name="email" placeholder="Digite seu e-mail aqui..." id="email"><br>
         <br>
-        <button type="submit"  id="newletter">Enviar</button>
+        <button class="btn btn-primary" type="submit"  id="newletter">Enviar</button>
       </form>
     </div>
   </div>
