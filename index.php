@@ -1,33 +1,7 @@
 <?php
-if($_POST){
-  $fileName = 'newsletter.json';
-  if(file_exists($fileName)){
-    $content = file_get_contents($fileName);
-    $content = json_decode($content, true);
-
-  } else {
-    $content = [];
-  }
-  $data = $_POST;
-  $data['data-hora'] = date("Y-m-d H:i:s");
-  $data['ip'] = getIP();
-  $content[] = $data;
-  $content = json_encode($content);
-  file_put_contents($fileName, $content);
-}
-
-function getIP()
-{
-    if (!empty($_SERVER['HTTP_CLIENT_IP']))
-    { $ip=$_SERVER['HTTP_CLIENT_IP']; }
-    elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR']))
-    { $ip=$_SERVER['HTTP_X_FORWARDED_FOR']; }
-    else
-    { $ip=$_SERVER['REMOTE_ADDR']; }
-    return $ip;
-}
-
+require 'newsletter.php'
 ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -115,26 +89,59 @@ Gostou do conteúdo? Para ler mais sobre clique  <a href="home1.php">aqui</a>
 
   </div>
   <div class="rightcolumn">
-    <div class="card">
+    <!-- <div class="card">
       <h2>Sobre Mim</h2>
       <div class="fakeimg" style="height:100px;">Image</div>
       <p>Algum texto sobre mim... in culpa qui officia deserunt mollit anim..</p>
-    </div>
-    <div class="card">
+    </div> -->
+    <!-- <div class="card">
       <h3>Posts Populares</h3>
       <div class="fakeimg">Imagem</div><br>
       <div class="fakeimg">Imagem</div><br>
       <div class="fakeimg">Imagem</div>
-    </div>
+    </div> -->
     <div class="card">
       <h3>Cadastre-se ! ! !<br> Siga o nosso conteúdo!</h3>
-      <form action="home.php" method="post">
-        Nome: <input type="text" required name="nome" name="name" placeholder="Digite seu nome aqui..." id="nome"><br>
+      <form action="home2.php" method="post">
+        <div class="form-group">
+          <label for="exampleFormControlInput3">Nome Completo</label>
+          <input type="text" class="form-control" required name="nome" name="name" id="nome" placeholder="Nome">
         <br>
-        Estado: <input type="text" required name="estado" name="estado" placeholder="Digite seu estado aqui..." id="estado"><br>
+        Estado: <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+        <option selected>Escolher...</option>
+        <option value="Acre">Acre</option>
+        <option value="Alagoas">Alagoas</option>
+        <option value="Amapá">Amapá</option>
+        <option value="Amazonas">Amazonas</option>
+        <option value="Bahia">Bahia</option>
+        <option value="Ceará">Ceará</option>
+        <option value="Distrito Federal">Distrito Federal</option>
+        <option value="Espírito Santo">Espírito Santo</option>
+        <option value="Goiás">Goiás</option>
+        <option value="Maranhão">Maranhão</option>
+        <option value="Mato Grosso">Mato Grosso</option>
+        <option value="Mato Grosso do Sul">Mato Grosso do Sul</option>
+        <option value="Minas Gerais">Minas Gerais</option>
+        <option value="Pará">Pará</option>
+        <option value="Paraíba">Paraíba</option>
+        <option value="Paraná">Paraná</option>
+        <option value="Pernambuco">Pernambuco</option>
+        <option value="Piauí">Piauí</option>
+        <option value="Rio de Janeiro">Rio de Janeiro</option>
+        <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+        <option value="Rio Grande do Norte">Rio Grande do Norte</option>
+        <option value="Rondônia">Rondônia</option>
+        <option value="Roraima">Roraima</option>
+        <option value="Santa Catarina">Santa Catarina</option>
+        <option value="São Paulo">São Paulo</option>
+        <option value="Sergipe">Sergipe</option>
+        <option value="Tocantins">Tocantins</option>
+        </select><br><br>
+        <div class="form-group">
+          <label for="exampleFormControlInput3">Endereço de email</label>
+          <input type="email" class="form-control" required name="email" name="email" id="email" placeholder="nome@exemplo.com">
+        </div>
         <br>
-        <!-- Necessário atualizar para lista de estados -->
-        E-mail: <input type="email" required name="email" name="email" placeholder="Digite seu e-mail aqui..." id="email"><br>
         <br>
         <button class="btn btn-primary" type="submit" id="newletter">Enviar</button>
       </form>
@@ -143,7 +150,7 @@ Gostou do conteúdo? Para ler mais sobre clique  <a href="home1.php">aqui</a>
 </div>
 
 <div class="footer">
-  <h2>Copyright</h2>
+  <h7>Copyright</h7>
 </div>
 
 
