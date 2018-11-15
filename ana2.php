@@ -4,6 +4,8 @@ require 'newsletter.php'
 <!DOCTYPE html>
 <html>
 <head>
+  <meta name="description" content="Diversos fatores são cruzados para definir o valor do seguro de carro.
+Conheça os 7 pontos que as seguradoras analisam que podem encarecer o serviço.">
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129190826-1"></script>
