@@ -12,7 +12,7 @@ require 'newsletter.php'
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date()); gtag('config', 'UA-129190826-1');
   </script>
-  
+
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <link rel="stylesheet" type="text/css" href="style.css">
@@ -57,7 +57,7 @@ require 'newsletter.php'
     <div class="card">
       <h2>Ao comprar um seguro, seu cérebro já decidiu 10 segundos antes de você saber disso</h2>
       <h5>São Paulo, Novembro 13, 2018</h5>
-      <div class="fakeimg" style="height:200px;">Imagem</div>
+      <img src="3.jpg" alt="Cade a imagem que estava aqui? =O" height=500px width=100%>
 
       <p>Pasme! Só em 2018, +15 milhões 1 de famílias passaram a ter problemas financeiros.
 São 27 milhões de famílias ao todo enfrentando desemprego, inadimplência e

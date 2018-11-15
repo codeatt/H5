@@ -1,6 +1,6 @@
 <?php
 if($_POST){
-  $fileName = 'newsletter.json';
+  $fileName = 'dados/cadastro.json';
   if(file_exists($fileName)){
     $content = file_get_contents($fileName);
     $content = json_decode($content, true);
