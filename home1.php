@@ -4,6 +4,15 @@ require 'newsletter.php'
 <!DOCTYPE html>
 <html>
 <head>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129190826-1"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date()); gtag('config', 'UA-129190826-1');
+  </script>
+  
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <link rel="stylesheet" type="text/css" href="style.css">
@@ -28,14 +37,14 @@ require 'newsletter.php'
 
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav">
-      <li class="nav-item">
+      <!-- <li class="nav-item">
         <a class="nav-link" href="index.php">Início</a>
+      </li> -->
+      <li class="nav-item">
+        <a class="nav-link" href="home1.php">Artigo #1</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="home1.php">Artigo 1</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="home2.php">Artigo 2</a>
+        <a class="nav-link" href="home2.php">Artigo #2</a>
       </li>
     </ul>
   </div>
@@ -43,7 +52,7 @@ require 'newsletter.php'
 </nav>
 
 <div class="row">
-  <div class="leftcolumn">
+  <!-- <div class="leftcolumn"> -->
 
     <div class="card">
       <h2>Ao comprar um seguro, seu cérebro já decidiu 10 segundos antes de você saber disso</h2>
@@ -97,43 +106,80 @@ Assim, evite ficar fugindo da dor dos gastos inesperados e busque o prazer fazen
 um seguro para seu carro hoje!<br><br>
 
 Se esse texto fez sentido para você, deixe seu melhor e-mail aqui e receba mais
-informações e dicas de como contratar um bom seguro.<br><br>
+informações e dicas de como contratar um bom seguro.
 
-Gostou do conteúdo? Cadastre-se para receber as últimas notícias!
        </p>
     </div>
 
   </div>
-  <div class="rightcolumn">
-    <div class="card">
+  <!-- COLUNA DIREITA -->
+  <!-- <div class="rightcolumn"> -->
+
+    <!-- CARTAO "SOBRE MIM" DA COLUNA DIREITA -->
+    <!-- <div class="card">
       <h2>Sobre Mim</h2>
       <div class="fakeimg" style="height:100px;">Image</div>
       <p>Algum texto sobre mim... in culpa qui officia deserunt mollit anim..</p>
-    </div>
-    <div class="card">
+    </div> -->
+    <!-- <div class="card">
       <h3>Posts Populares</h3>
       <div class="fakeimg">Imagem</div><br>
       <div class="fakeimg">Imagem</div><br>
       <div class="fakeimg">Imagem</div>
-    </div>
-    <div class="card">
+    </div> -->
+
+    <!-- CARTAO DE CADASTRO DA COLUNA DIREITA-->
+    <!-- <div class="card">
       <h3>Cadastre-se ! ! !<br> Siga o nosso conteúdo!</h3>
-      <form action="home1.php" method="post">
-        Nome: <input type="text" required name="nome" name="name" placeholder="Digite seu nome aqui..." id="nome"><br>
+      <form action="home2.php" method="post">
+        <div class="form-group">
+          <label for="exampleFormControlInput3">Nome Completo</label>
+          <input type="text" class="form-control" required name="nome" name="name" id="nome" placeholder="Nome">
         <br>
-        Estado: <input type="text" required name="estado" name="estado" placeholder="Digite seu estado aqui..." id="estado"><br>
+        Estado: <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+        <option selected>Escolher...</option>
+        <option value="Acre">Acre</option>
+        <option value="Alagoas">Alagoas</option>
+        <option value="Amapá">Amapá</option>
+        <option value="Amazonas">Amazonas</option>
+        <option value="Bahia">Bahia</option>
+        <option value="Ceará">Ceará</option>
+        <option value="Distrito Federal">Distrito Federal</option>
+        <option value="Espírito Santo">Espírito Santo</option>
+        <option value="Goiás">Goiás</option>
+        <option value="Maranhão">Maranhão</option>
+        <option value="Mato Grosso">Mato Grosso</option>
+        <option value="Mato Grosso do Sul">Mato Grosso do Sul</option>
+        <option value="Minas Gerais">Minas Gerais</option>
+        <option value="Pará">Pará</option>
+        <option value="Paraíba">Paraíba</option>
+        <option value="Paraná">Paraná</option>
+        <option value="Pernambuco">Pernambuco</option>
+        <option value="Piauí">Piauí</option>
+        <option value="Rio de Janeiro">Rio de Janeiro</option>
+        <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+        <option value="Rio Grande do Norte">Rio Grande do Norte</option>
+        <option value="Rondônia">Rondônia</option>
+        <option value="Roraima">Roraima</option>
+        <option value="Santa Catarina">Santa Catarina</option>
+        <option value="São Paulo">São Paulo</option>
+        <option value="Sergipe">Sergipe</option>
+        <option value="Tocantins">Tocantins</option>
+        </select><br><br>
+        <div class="form-group">
+          <label for="exampleFormControlInput3">Endereço de email</label>
+          <input type="email" class="form-control" required name="email" name="email" id="email" placeholder="nome@exemplo.com">
+        </div>
         <br>
-        <!-- Necessário atualizar para lista de estados -->
-        E-mail: <input type="email" required name="email" name="email" placeholder="Digite seu e-mail aqui..." id="email"><br>
         <br>
-        <button class="btn btn-primary" type="submit"  id="newletter">Enviar</button>
+        <button class="btn btn-primary" type="submit" id="newletter">Enviar</button>
       </form>
     </div>
   </div>
-</div>
+</div> -->
 
-<div class="footer">
-  <h2>Copyright</h2>
+<div class="footer" style="width:100%">
+  <h7>Copyright</h7>
 </div>
 
 
