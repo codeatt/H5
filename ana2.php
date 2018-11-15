@@ -82,97 +82,6 @@ $(document).ready(function(){
   <!-- <div class="leftcolumn"> -->
 
     <div class="card">
-      <h2>Ao comprar um seguro, seu cérebro já decidiu 10 segundos antes de você saber disso</h2>
-      <h5>São Paulo, Novembro 13, 2018</h5>
-      <div class="fakeimg" style="height:200px;">Imagem</div>
-
-      <p>Pasme! Só em 2018, +15 milhões 1 de famílias passaram a ter problemas financeiros.
-São 27 milhões de famílias ao todo enfrentando desemprego, inadimplência e
-restrições de orçamento.<br><br>
-   E, por estarem nesse “clube de (des)vantagens” essas famílias tem um inimigo mortal:
-os gastos inesperados! E estes podem surgir por problemas de saúde, juros, etc., mas
-quase sempre é por um bem que é conhecido por “gastar como uma família”: o seu
-carro. Porque eu digo isso? É que em meio à esse tsunami financeiro, a venda 2 de
-carros financiados voltou a crescer no Brasil e o risco de mais pessoas se afundarem
-é iminente.<br><br>
-   E por que isso é tão aterrorizante? Vamos usar a neurociência para explicar. É que
-nosso cérebro social reage de duas formas aos estímulos do ambiente: resposta à
-recompensa ou à ameaça, e falando de gastos inesperados, estamos falando do
-órgão mais sensível do ser humano...<br><br>
-
-Gostou do conteúdo? Para ler mais sobre clique  <button class="fadein btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">AQUI</button>
-<!-- <button class="fadeout">Fade out</button> -->
-</p>
-       <div style="display: none;" class="cadastro"id="news-signup">
-         <div class="wrapper">
-           <div id="news-signup_close"></div>
-           <div class="newsletter-content" id="phplistsubscriberesult">
-             <h2>Quer ficar por dentro das melhores dicas para Seguro?</h2>
-
-             <p>Deixe seu e-mail e nós enviaremos tudo que você precisa saber!</p>
-
-
-             <!-- <form class="signup-form" id="signup-form" action="home.php" method="POST">
-             <p>
-               <input type="text" required name="name" id="news_signup_name" value="" placeholder="Digite seu Nome" autofocus>
-             </p>
-             <p>
-                 <input type="text" required name="email" id="news_signup_email" value="" placeholder="Digite seu e-mail">
-               </p>
-               <p class="button">
-                 <input type="submit" value="INSCREVER-SE">
-               </p>
-             </form> -->
-             <form action="home1.php" method="post">
-               <div class="form-group">
-                 <label for="exampleFormControlInput3">Nome Completo</label>
-                 <input type="text" class="form-control" required name="nome" name="name" id="nome" placeholder="Nome">
-               <br>
-               Estado: <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
-               <option selected>Escolher...</option>
-               <option value="Acre">Acre</option>
-               <option value="Alagoas">Alagoas</option>
-               <option value="Amapá">Amapá</option>
-               <option value="Amazonas">Amazonas</option>
-               <option value="Bahia">Bahia</option>
-               <option value="Ceará">Ceará</option>
-               <option value="Distrito Federal">Distrito Federal</option>
-               <option value="Espírito Santo">Espírito Santo</option>
-               <option value="Goiás">Goiás</option>
-               <option value="Maranhão">Maranhão</option>
-               <option value="Mato Grosso">Mato Grosso</option>
-               <option value="Mato Grosso do Sul">Mato Grosso do Sul</option>
-               <option value="Minas Gerais">Minas Gerais</option>
-               <option value="Pará">Pará</option>
-               <option value="Paraíba">Paraíba</option>
-               <option value="Paraná">Paraná</option>
-               <option value="Pernambuco">Pernambuco</option>
-               <option value="Piauí">Piauí</option>
-               <option value="Rio de Janeiro">Rio de Janeiro</option>
-               <option value="Rio Grande do Sul">Rio Grande do Sul</option>
-               <option value="Rio Grande do Norte">Rio Grande do Norte</option>
-               <option value="Rondônia">Rondônia</option>
-               <option value="Roraima">Roraima</option>
-               <option value="Santa Catarina">Santa Catarina</option>
-               <option value="São Paulo">São Paulo</option>
-               <option value="Sergipe">Sergipe</option>
-               <option value="Tocantins">Tocantins</option>
-               </select><br><br>
-               <div class="form-group">
-                 <label for="exampleFormControlInput3">Endereço de email</label>
-                 <input type="email" class="form-control" required name="email" name="email" id="email" placeholder="nome@exemplo.com">
-               </div>
-               <br>
-               <button  href="home1.php" class="btn btn-primary" type="submit" id="newletter">Enviar</button>
-             </form>
-
-             <p class="footnote">Nós também odiamos SPAM. Você pode se descadastrar a qualquer momento!</p>
-           </div>
-         </div>
-       </div>
-    </div>
-
-    <div class="card">
       <h2>7 fatores que podem encarecer o seguro de carro</h2>
       <h5>São Paulo, Novembro 13, 2018</h5>
       <img src="1.jpg" alt="x" height=500px width=100%>
@@ -257,8 +166,6 @@ Gostou do conteúdo? Para ler mais sobre clique  <button class="fadein btn btn-p
         </div>
       </p>
     </div>
-
-  </div>
 
   <!-- COLUNA DIREITA -->
   <!-- <div class="rightcolumn"> -->
