@@ -111,7 +111,6 @@ Gostou do conteúdo? Para ler mais sobre clique  <button class="fadein btn btn-p
 
              <p>Deixe seu e-mail e nós enviaremos tudo que você precisa saber!</p>
 
-
              <!-- <form class="signup-form" id="signup-form" action="home.php" method="POST">
              <p>
                <input type="text" required name="name" id="news_signup_name" value="" placeholder="Digite seu Nome" autofocus>
@@ -128,8 +127,7 @@ Gostou do conteúdo? Para ler mais sobre clique  <button class="fadein btn btn-p
                  <label for="exampleFormControlInput3">Nome Completo</label>
                  <input type="text" class="form-control" required name="nome" name="name" id="nome" placeholder="Nome">
                <br>
-               Estado: <select class="custom-select mr-sm-2" id="inlineFormCustomSelect" name="regiao" id="regiao">
-               <option selected>Escolher...</option>
+               Estado: <select class="custom-select mr-sm-2" id="inlineFormCustomSelect" name="regiao" id="regiao" required>
                <option value="Acre">Acre</option>
                <option value="Alagoas">Alagoas</option>
                <option value="Amapa">Amapá</option>
@@ -212,8 +210,7 @@ Gostou do conteúdo? Para ler mais sobre clique  <button class="fadein btn btn-p
                   <label for="exampleFormControlInput3">Nome Completo</label>
                   <input type="text" class="form-control" required name="nome" name="name" id="nome" placeholder="Nome">
                 <br>
-                Estado: <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
-                <option selected>Escolher...</option>
+                Estado: <select class="custom-select mr-sm-2" id="inlineFormCustomSelect" name="regiao" id="regiao" required>
                 <option value="Acre">Acre</option>
                 <option value="Alagoas">Alagoas</option>
                 <option value="Amapá">Amapá</option>

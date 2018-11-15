@@ -130,8 +130,7 @@ Gostou do conteúdo? Para ler mais sobre clique  <button class="fadein btn btn-p
                  <label for="exampleFormControlInput3">Nome Completo</label>
                  <input type="text" class="form-control" required name="nome" name="name" id="nome" placeholder="Nome">
                <br>
-               Estado: <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
-               <option selected>Escolher...</option>
+               Estado: <select class="custom-select mr-sm-2" id="inlineFormCustomSelect" name="regiao" id="regiao" required>
                <option value="Acre">Acre</option>
                <option value="Alagoas">Alagoas</option>
                <option value="Amapá">Amapá</option>
