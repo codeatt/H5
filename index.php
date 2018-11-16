@@ -15,8 +15,8 @@ require 'newsletter.php'
 
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1">
-   <link rel="stylesheet" type="text/css" href="style.css">
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+   <link rel="stylesheet" type="text/css" href="style.css">
    <!-- <link rel="stylesheet" href="./exit-intent/exit-style.css"> -->
    <!-- Este último link está sobrepondo o style.css, fvr ordenar corretamente a leitura de estilos -->
 <style>
@@ -51,8 +51,9 @@ $(document).ready(function(){
     <div class="d-flex justify-content-center" style="margin-bottom:0">
      <img src="logo.png" alt="x" height=150 width=200>
   </div>
+  <br>
 
-<nav class="navbar navbar-expand-sm bg-color" style="background-color: #0353d1;">
+<nav class="navbar navbar-expand-sm bg-color" style="background-color: white;">
   <!-- <a class="navbar-brand" href="#">Barra de Navegação</a> -->
   <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"> -->
     <!-- <span class="navbar-toggler-icon"></span> -->
@@ -84,7 +85,7 @@ $(document).ready(function(){
     <div class="card">
       <h2>Ao comprar um seguro, seu cérebro já decidiu 10 segundos antes de você saber disso</h2>
       <h5>São Paulo, Novembro 13, 2018</h5>
-      <img src="3.jpg" alt="Cade a imagem que estava aqui? =O" height=500px width=100%>
+      <img src="2.jpg" alt="Cade a imagem que estava aqui? =O" style="max-width: 100%">
 
       <p>Pasme! Só em 2018, +15 milhões 1 de famílias passaram a ter problemas financeiros.
 São 27 milhões de famílias ao todo enfrentando desemprego, inadimplência e
@@ -173,7 +174,7 @@ Gostou do conteúdo? Para ler mais sobre clique  <button class="fadein btn btn-p
     <div class="card">
       <h2>7 fatores que podem encarecer o seguro de carro</h2>
       <h5>São Paulo, Novembro 13, 2018</h5>
-      <img src="1.jpg" alt="x" height=500px width=100%>
+      <img src="1.jpg" alt="x" style="max-width: 100%;">
       <p>A contratação de um seguro de carro é motivo de dor de cabeça para muitas pessoas.
         Afinal, trata-se de um serviço cada vez mais caro.
         Não existe uma tabela fixa de preços, mas uma série de fatores podem influenciar no valor.
@@ -245,14 +246,16 @@ Gostou do conteúdo? Para ler mais sobre clique  <button class="fadein btn btn-p
                 </div>
                 <br>
                 <button  href="home1.php" class="btn btn-primary" type="submit" id="newletter">Enviar</button>
+                                </div>
+
               </form>
 
+                
               <p class="footnote">Nós também odiamos SPAM. Você pode se descadastrar a qualquer momento!</p>
-            </div>
           </div>
         </div>
         </div>
-      </p>
+      
     </div>
 
   </div>
@@ -324,7 +327,7 @@ Gostou do conteúdo? Para ler mais sobre clique  <button class="fadein btn btn-p
 </div> -->
 
 <div class="footer" style="width:100%">
-  <h7>Copyright</h7>
+  <h7> Todos os direitos reservados - Desenvolvido por High Five Group - 2018</h7>
 </div>
 
 <!-- Esse formulario de cadastro fadein não permite edição em seu js, por isso está comentado -->

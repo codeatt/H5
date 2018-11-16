@@ -1,12 +1,18 @@
+
+@font-face{ 
+    font-family: 'Roboto', sans-serif;
+    src: url("https://fonts.googleapis.com/css?family=Roboto");
+}
 * {
     box-sizing: border-box;
 }
 
 /* Add a gray background color with some padding */
 body {
-    font-family: Arial;
+    font-family: 'Roboto';
+    color: white;
     padding: 20px;
-    background: #f1f1f1;
+    background: #040639;
 }
 /* Header/Blog Title */
 .header {
@@ -15,6 +21,7 @@ body {
     text-align: center;
     background: white;
 }
+
 
 /* .bg-dark{
   background-color: #0353d1 !important;
@@ -42,7 +49,7 @@ body {
 
 /* Add a card effect for articles */
 .card {
-     background-color: white;
+     background-color: #040639;
      padding: 20px;
      margin-top: 20px;
 }
@@ -57,18 +64,26 @@ body {
 /* Footer */
 .footer {
     padding: 20px;
+    color: #040639;
     text-align: center;
-    background: #ddd;
+    background: white;
     margin-top: 20px;
 }
 
 /* MENU NAV LETRAS */
 a {
-  color: white !important;
+  color: #040639 !important;
 }
+a:visited {
+    color: #040639 !important;
+  }
 
 a:hover {
-  color: white !important;
+    background: #040639;
+    color: white !important;
+}
+.btn {
+    background: #040639;
 }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
