@@ -49,7 +49,7 @@ $(document).ready(function(){
 <body>
 
     <div class="d-flex justify-content-center" style="margin-bottom:0">
-     <img src="logo.png" alt="x" height=150 width=200>
+     <img src="logo.png" alt="x" height="200px;" width="200px;">
   </div>
   <br>
 
