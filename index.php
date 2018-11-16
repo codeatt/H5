@@ -17,6 +17,7 @@ require 'newsletter.php'
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
    <link rel="stylesheet" type="text/css" href="style.css">
+   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
    <!-- <link rel="stylesheet" href="./exit-intent/exit-style.css"> -->
    <!-- Este último link está sobrepondo o style.css, fvr ordenar corretamente a leitura de estilos -->
 <style>
