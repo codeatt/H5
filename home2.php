@@ -4,7 +4,7 @@ require 'newsletter.php'
 <!DOCTYPE html>
 <html>
 <head>
-  
+
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129190826-1"></script>
   <script>
@@ -46,6 +46,18 @@ require 'newsletter.php'
       <li class="nav-item">
         <a class="nav-link" href="home2.php">Artigo #2</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" href="home3.php">Artigo #3</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="home4.php">Artigo #4</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="home5.php">Artigo #5</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="home6.php">Artigo #6</a>
+      </li>
     </ul>
   </div>
 
@@ -55,6 +67,7 @@ require 'newsletter.php'
   <!-- <div class="leftcolumn"> -->
 
     <div class="card">
+      <h1>Artigo #2</h1>
       <h2>7 fatores que podem encarecer o seguro de carro</h2>
       <!-- Meta description: Diversos fatores são cruzados para definir o valor do seguro de carro. Conheça os 7 pontos que as seguradoras analisam que podem encarecer o serviço. -->
       <h5>São Paulo, Novembro 13, 2018</h5>

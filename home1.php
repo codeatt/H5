@@ -46,6 +46,18 @@ require 'newsletter.php'
       <li class="nav-item">
         <a class="nav-link" href="home2.php">Artigo #2</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" href="home3.php">Artigo #3</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="home4.php">Artigo #4</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="home5.php">Artigo #5</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="home6.php">Artigo #6</a>
+      </li>
     </ul>
   </div>
 
@@ -55,6 +67,7 @@ require 'newsletter.php'
   <!-- <div class="leftcolumn"> -->
 
     <div class="card">
+      <h1>Artigo #1</h1>
       <h2>Ao comprar um seguro, seu cérebro já decidiu 10 segundos antes de você saber disso</h2>
       <h5>São Paulo, Novembro 13, 2018</h5>
       <img src="3.jpg" alt="Cade a imagem que estava aqui? =O" height=500px width=100%>
